@@ -15,16 +15,16 @@ testLet();
 //Babel difference between ES5
 "use strict";
 
-function testLet() {
-  var a = 30;
-  if (true) {
-    var _a = 50;
-    console.log(_a);
+function testVar(){
+  var a =30;
+  if (true){
+    var a=50;
+    console.log(a);
   }
   console.log(a);
 }
-testLet();
+testVar();
 
 //Output:
 //50
-//30
+//50
